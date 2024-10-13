@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Times new roman', sans-serif;
   line-height: 1.5;
   background: #F2F2F2;
   color: #323232;
@@ -14,6 +14,7 @@ body {
 
 img {
   max-width: 100%;
+  border-radius: 40%;
 }
 
 .icon {
@@ -37,7 +38,7 @@ a:hover {
   max-width: 960px;
   margin: 40px auto;
   padding: 32px;
-  background: white;
+  background: rgb(255, 255, 255);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -46,7 +47,7 @@ section {
   grid-template-columns: 1fr 4fr;
   grid-gap: 20px;
   padding: 24px 0;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid rgb(155, 125, 7);
 }
 
 section:last-child {
@@ -74,12 +75,13 @@ img.avatar {
 .my-title {
   font-size: 24px;
   font-weight: 300;
-  color: #236FB2;
+  color: #170663;
 }
 
 .links {
   display: flex;
   margin: 10px 0 20px 0;
+
 }
 
 .link-item {
@@ -99,7 +101,8 @@ img.avatar {
 .job {
   padding-bottom: 24px;
   margin-bottom: 24px;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 0.3px solid #9b7d07;
+  color:#170663;
 }
 
 .job:last-child {
@@ -111,6 +114,8 @@ img.avatar {
   justify-content: space-between;
   margin-bottom: 20px;
   font-size: 18px;
+  color:black;
+  
 }
 
 .job-company {
@@ -123,7 +128,6 @@ img.avatar {
 ***********************************/
 
 .skills-container {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   margin-bottom: 24px;
